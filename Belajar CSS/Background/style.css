@@ -1,0 +1,13 @@
+body {
+    background-color: lightblue;
+    background-image: url(denim.webp);
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+p {
+    color: aliceblue;
+}

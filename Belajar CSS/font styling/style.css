@@ -1,0 +1,11 @@
+h1 {
+    font-family: arial,verdana, sans-serif;
+    color: #e22b3a;
+    font-size: 50px;
+    font-style: normal
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 20px;
+}
