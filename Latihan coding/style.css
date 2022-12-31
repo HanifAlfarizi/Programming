@@ -1,0 +1,42 @@
+.container {
+  margin-top: 20vh;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: coral;
+  padding: 12px;
+}
+
+.container > div {
+  background-color: skyblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  padding: 3em;
+  border: 3px solid black;
+}
+
+.top-left {
+  grid-column: 1/2;
+}
+
+.top-right {
+  grid-column: 2/3;
+}
+
+.content {
+  grid-column: 3/4;
+}
+
+.bottom-left {
+  grid-column: 1/2;
+}
+
+.bottom-center {
+  grid-column: 2/3;
+}
+
+.bottom-right {
+  grid-column: 3/4;
+}

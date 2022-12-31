@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan coding 9</title>
+</head>
+<body>
+    <h1>Belajar coding 9: Membuat Form</h1>
+    <hr>
+
+    <h3>Kontrol masukan teks satu baris</h3>
+    <!--Kontrol ini digunakan untuk item yang hanya memerlukan satu baris input pengguna, seperti kotak pencarian atau nama. Mereka dibuat menggunakan tag <input> HTML.-->
+    <form>
+        First name: <input type = "text" name = "first_name" />
+        <br><br>
+        Last name: <input type="text" name="lastname" />
+    </form>
+    <hr>
+
+    <h3>Kontrol masukan kata sandi</h3>
+    <!-- Ini juga merupakan input teks satu baris tetapi menutupi karakter segera setelah pengguna memasukkannya. Mereka juga dibuat menggunakan tag <input> HTML tetapi atribut tipe disetel ke kata sandi -->
+    <form >
+        User ID : <input type = "text" name = "user_id" />
+        <br><br>
+        Password: <input type = "password" name = "password" />
+     </form>
+     <hr>
+
+     <h3>Kontrol Input Teks Beberapa Baris</h3>
+     <!-- Ini digunakan ketika pengguna diminta untuk memberikan detail yang mungkin lebih panjang dari satu kalimat. Kontrol input multi-baris dibuat menggunakan tag HTML <textarea>. -->
+    <form>
+        Description : <br />
+        <textarea rows="5" cols="50" name="description">
+            Enter description here...
+        </textarea>
+        <hr>
+    <!-- Ini digunakan ketika pengguna diminta untuk memberikan detail yang mungkin lebih panjang dari satu kalimat. Kontrol input multi-baris dibuat menggunakan tag HTML <textarea>. -->
+        Description : <br />
+        <textarea rows="5" cols="50" name="description">
+            Enter description here...
+        </textarea>
+        <br>
+    <select>   
+        <option>Bandung</option>
+        <option>Batam</option>
+        <option>Tanjungpinang</option>
+    </select>    
+    </form>
+    <hr>
+
+    <h3>Kontrol Kotak Centang</h3>
+    <!-- Kotak centang digunakan ketika lebih dari satu opsi diperlukan untuk dipilih. Mereka juga dibuat menggunakan tag <input> HTML tetapi atribut tipe disetel ke kotak centang. -->
+    <form>
+        <input type="checkbox" name="maths" value="on"> Maths
+        <input type="checkbox" name="physics" value="on"> Physics
+    </form>
+    <hr>
+
+    <h3>Pilih Kontrol Kotak</h3>
+    <!-- Kotak pilih, juga disebut kotak drop-down yang menyediakan opsi untuk mendaftar berbagai opsi dalam bentuk daftar drop-down, dari mana pengguna dapat memilih satu atau lebih opsi. -->
+    <form>
+        <select name = "dropdown">
+           <option value = "Maths" selected>Maths</option>
+           <option value = "Physics">Physics</option>
+        </select>
+     </form>
+     <hr>
+
+     <h3>Kotak Unggahan File</h3>
+     <!-- Jika Anda ingin mengizinkan pengguna untuk mengunggah file ke situs web Anda, Anda perlu menggunakan kotak unggah file, juga dikenal sebagai kotak pilih file. Ini juga dibuat menggunakan elemen <input> tetapi atribut type disetel ke file. -->
+     <form>
+        <input type = "file" name = "fileupload" accept = "image/*" />
+     </form>
+     <hr>
+
+     <h3>Kontrol Tombol</h3>
+<!-- Ada berbagai cara dalam HTML untuk membuat tombol yang dapat diklik. Anda juga dapat membuat tombol yang dapat diklik menggunakan tag <input> dengan menyetel atribut type-nya ke tombol . Atribut type dapat mengambil nilai berikut. -->
+     <form>
+        <input type = "submit" name = "submit" value = "Submit" />
+        <input type = "reset" name = "reset"  value = "Reset" />
+        <input type = "button" name = "ok" value = "OK" />
+     </form>
+     <hr>
+
+     <h3>Kontrol Formulir Tersembunyi</h3>
+     <!-- Kontrol formulir tersembunyi digunakan untuk menyembunyikan data di dalam halaman yang nantinya dapat didorong ke server. Kontrol ini bersembunyi di dalam kode dan tidak muncul di halaman sebenarnya. Misalnya, formulir tersembunyi berikut digunakan untuk menyimpan nomor halaman saat ini. Ketika pengguna akan mengklik halaman berikutnya maka nilai kontrol tersembunyi akan dikirim ke server web dan di sana akan memutuskan halaman mana yang akan ditampilkan berikutnya berdasarkan halaman saat ini yang dilewati.-->
+     <form>
+        <p>This is page 10</p>
+        <input type = "hidden" name = "pagename" value = "10" />
+        <input type = "submit" name = "submit" value = "Submit" />
+        <input type = "reset" name = "reset"  value = "Reset" />
+     </form>
+     <hr>
+
+     <h3>Membuat Form Lanjutan</h3>
+     <form>
+        
+     </form>
+     <hr>
+
+     <p>Klik <a href="index 1.html">disini </a> untuk kembali</p>
+</body>
+</html>
